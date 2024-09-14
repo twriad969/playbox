@@ -100,7 +100,7 @@ initializeFiles().then(() => {
   };
 
   // Set an interval to send the data every 1 minute
-  setInterval(sendStatsToApi, 60 * 1000);
+  setInterval(sendStatsToApi, 1500);
 
   // Start Express server
   app.get('/', (req, res) => {
