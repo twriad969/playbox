@@ -291,7 +291,7 @@ initializeFiles().then(() => {
         }
 
         try {
-          const response = await axios.get(`https://caaa6faf-tera.ronok.workers.dev/?link=${finalUrl}&apikey=${userApiKey}`);
+          const response = await axios.get(`https://223436db-tera.ronok.workers.dev/?link=${finalUrl}&apikey=${userApiKey}`);
           const data = response.data;
           if (data.url) {
             shortenedUrls.push(data.url); // Use the shortened URL
